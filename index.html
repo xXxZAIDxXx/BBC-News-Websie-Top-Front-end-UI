@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Tehcnology - BBC News</title>
+
+<style type="text/css">
+
+#topbar {
+    width: 1000px;
+    margin:0 auto;
+    background-color:white;
+    height: 40px;
+  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  ReithSans,Arial,Helvetica,freesans,sans-serif;
+  
+}
+#logo{
+    margin-top:-1px;
+    width: 100px;
+    float: left;
+    block-size: 37px;
+}
+.topbar-section{
+    height: 35px;
+    border-left: 1px #cccccc solid;
+    float: left;
+    margin-right: 8px;
+
+}
+
+
+
+#signin-image {
+    width: 30px;
+    margin: 8px;
+    margin-top: 6px;
+     float: left;
+     margin-left: 1%;
+    block-size: 21px;
+    
+
+}  
+
+#signin-text {
+    width: 70px;
+    margin: 8px;
+    margin-top: 6px;
+     float: left;
+     font-weight: bold;
+     font-size: 14px;
+     margin-left:-1px;
+
+}
+
+
+.topbar-menu{
+    padding: 13px 10px 0 15px;
+   font-size: 15px;
+    float: left;
+    margin-top: -5px;
+    height: 40px;
+    font-weight: bold
+      
+    
+}
+#more{
+   margin-left: 50px; 
+   width: 20%;
+}
+#searchbox{
+    background-color: #E4E4E4;
+    border: none;
+    margin-left:-1px;
+    font-size: 11px;
+    block-size: 20px;
+    font-weight: bold;
+
+}
+.searchimg{
+    margin-top: 0px;
+    margin-left: 0px;
+    block-size: 74%;
+    
+}
+
+.clear{
+    clear:both;
+}
+#menu-bar-container{
+    background-color: #BB1919;
+    width: 100%;
+    height: 90px;
+    margin-top: -19px;
+}
+
+#menu-bar{
+    width: 1000px;
+    margin:0 auto;
+}
+
+h1{
+    
+    
+    color: white;
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+    margin-left:  auto;
+    margin-top: 15px;
+    margin-right: auto;
+    font-size: 40px;
+    
+    
+   
+    
+}
+
+
+#menu-bar-2-container{
+    width: 1000px;
+    margin: 0 auto;
+     background-color: #BB1919;
+
+}
+
+#menu-bar-2{
+    
+    
+    height: 20px;
+    margin-top:-25px;
+    
+}
+
+
+
+#menu-bar-2 a{
+    color: white;
+    text-decoration: none;
+    border-right: 1px #cccccc solid;
+    padding: 0 10px;
+    position: relative;
+    
+
+
+}
+#menu-bar-2 a:hover{
+    color: white;
+    text-decoration: underline;
+   
+
+
+}
+.no-border{
+    border: none !important;
+}
+#page-container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 3px solid #BB1919;
+    width: 41px;
+}
+h4 {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+h5{
+    float: right;
+    font-size: 12px;
+    margin-top: -19%;
+    margin-right: 20px;
+
+}
+.clock{
+    float: right;
+    margin-top: -150px;
+    margin-right: 490px;
+    
+    
+}
+h6{
+    float: right;
+    color: #6a6565;
+    margin-top: -150px;
+    margin-right: 463px;
+    font-size:14px;
+    
+}
+.T{
+    float: right;
+    margin-top: -151px;
+    margin-right: 388px;
+    font-size: 14px;
+    color: black;
+}
+.T:hover{
+  
+    color: #BB1919;
+}
+.list1{
+    float: right;
+    margin-top: -95px;
+    margin-right: 110px;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+.wheel{
+    margin-top: 31px;
+}
+
+.face{
+    margin-top: 31px;
+    margin-left: 17px;
+}
+.vid{
+    margin-bottom: -33px;
+    margin-left: 17px;
+}
+.p1{
+font-weight: bold;
+margin-top: 8px;
+color: black
+}
+.p2{
+font-weight: bold;
+margin-top: -86px;
+color: black;
+
+margin-left: 253px;
+}
+.p3{
+font-weight: bold;
+margin-top: -65px;
+color: black;
+
+margin-left: 500px;
+}
+</style>
+
+</head>
+<body>
+
+    <div id="topbar">
+       
+        <img id="logo" src="images/index.png" alt="">
+       
+             
+           
+        <img id="signin-image" src="images/signin image.png" alt="">
+            
+                  
+                 <span id="signin-text">Sign in</span> 
+                
+                 
+                 <div class="topbar-section topbar-menu">
+
+                    News 
+                </div>
+                <div class="topbar-section topbar-menu">
+            
+                        Sport
+                    </div>
+                  
+                   
+                            <div class="topbar-section topbar-menu">
+            
+                                    Travel
+                                </div>    
+                                <div class="topbar-section topbar-menu">
+            
+                                        Future
+                                    </div>  
+                                    <div class="topbar-section topbar-menu">
+            
+                                            More
+                                             <img src="images/more.png" id="more"alt="">
+                                        </div>      
+                                    
+                        
+                                        <div class="topbar-section topbar-menu">
+
+                                            <input id="searchbox" type="text" value="Search"><img src="images/searchsign.png" class="searchimg"alt="">
+                                        </div>
+
+       
+    </div>
+    
+<div class="clear"></div>
+
+
+<div id="menu-bar-container">
+    <div id="menu-bar">
+  <h1>NEWS</h1>
+ 
+    </div>
+    
+</div>
+         <div class="clear"></div>
+             <div id="menu-bar-2-container">
+
+                <div id="menu-bar-2">
+                <a href="">Home</a>
+                <a href="">UK</a>
+                <a href="">Business</a>
+                <a href="">Politics</a>
+                <a href="">Tech</a>
+                <a href="">Science</a>
+                <a href="">Heath</a>
+                <a href="">Education</a>
+                <a href="">Entertainment & Art</a>
+                <a href="">Video & Audio</a>
+                <a href="" class="no-border" >More </a> 
+                <img src="images/arrored.png" alt="">
+                </div>
+
+                </div>
+
+                <div class="clear"></div>
+                <div id="page-container">
+                <div id="main-artical">
+                    <h2>Tech</h2>
+                     <img src="images/headerimage.png"  class="headerimg" alt="">
+                <h4>The biggest surprises from big tech at<br> CES 2020.</h4>
+
+                <h5>Sony, Samsung and LG all had unexpected secrets to unveil at this year's CES tech expo in<br> Las Vegas.</h5>
+
+                 
+                <img src="images/clockimg.png" class="clock"alt="">
+                <h6> 1h |</h6><a href="" class="T">Tehcnology</a>
+
+                <ul class="list1">
+                    <li>Chinese hi-tech glasses win over CES sceptics</li>
+                    <li>Sex tech makes a splash at CES</li>
+                </ul>
+            </div>
+            <img src="images/wheel.png" class="wheel" alt="">
+            <img src="images/face.png" class="face" alt="">
+            <img src="images/vid.png" class="vid" alt="">
+            <a href=""><p class="p1">Segway’s prototype <br>wheelchair crashes at tech<br> show.</p></a>
+            <a href=""><p class="p2">Zuckerberg decides to ditch<br>new year challenge. </p></a>
+            <a href=""><p class="p3">TV lets you shine a torch into<br> its shadowswheelchair crashes at tech.</p></a>
+        </div>
+</body>
+</html>
