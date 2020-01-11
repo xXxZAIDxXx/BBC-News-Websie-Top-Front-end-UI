@@ -8,4 +8,4 @@ https://xxxzaidxxx.github.io/BBC-News-Websie-Top-Front-end-UI/
 
 
 
-## `Dissclamer the News or any contect of the website was imitated spontaneously according to the educational purpose that was given at that time, any information or opinions on the page reflects nothing but it self, (The original BBC News Web Site).`
+## `Dissclamer the News or any content of the website was imitated spontaneously according to the educational purpose that was given at that time, any information or opinions on the page reflects nothing but it self, (The original BBC News Web Site).`
